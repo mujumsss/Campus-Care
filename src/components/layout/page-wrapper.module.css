@@ -1,0 +1,14 @@
+.wrapper {
+  margin-left: 220px;
+  padding: 1.5rem 2rem;
+  min-height: calc(100vh - 72px); /* Adjust to header height */
+  background-color: #f7f7f7;
+  transition: margin 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    margin-left: 0;
+    padding: 1rem;
+  }
+}

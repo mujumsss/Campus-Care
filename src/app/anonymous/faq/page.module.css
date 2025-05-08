@@ -1,0 +1,118 @@
+.container {
+    padding: 20px;
+}
+
+.topBar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.searchInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.askAiButton {
+    background-color: #0070f3;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+/* c:\Users\ronni\Desktop\campus-care\src\app\anonymous\faq\page.module.css */
+
+/* ... your existing styles ... */
+
+.aiSection {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.aiSection h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.aiForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.aiTextarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 60px;
+}
+
+.aiTextarea:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+.aiSubmitButton {
+  padding: 0.8rem 1.5rem;
+  background-color: #007bff; /* Example blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  align-self: flex-start; /* Align button to the left */
+}
+
+.aiSubmitButton:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.aiSubmitButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.aiError {
+  color: #dc3545; /* Example red */
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.aiResponseContainer {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #e9f5ff; /* Light blue background for response */
+  border: 1px solid #b8d6f0;
+  border-radius: 4px;
+}
+
+.aiResponseContainer h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #0056b3;
+}
+
+.aiResponseText {
+  white-space: pre-wrap; /* Preserve line breaks from AI */
+  color: #333;
+  line-height: 1.6;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 2rem 0;
+}

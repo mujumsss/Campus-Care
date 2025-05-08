@@ -1,0 +1,56 @@
+.container {
+    padding: 20px;
+}
+
+.topBar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.searchInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.askAiButton {
+    background-color: #0070f3;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.addFaq {
+    background-color: #75c801;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: none;
+    width: 5rem;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.aiSection {
+    margin-top: 2rem;
+    background: #f7f7f7;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.aiResponse {
+    margin-top: 1rem;
+    background: white;
+    padding: 1rem;
+    border-left: 4px solid #0070f3;
+    border-radius: 6px;
+}
